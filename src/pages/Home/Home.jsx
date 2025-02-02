@@ -1,7 +1,7 @@
 import React from 'react'
 import Weather from '../../components/Weather/Weather'
 import Search from '../../components/Search/Search'
-import styles from './Home.module.css'
+import styles from './home.module.css'
 
 
 const Home = () => {

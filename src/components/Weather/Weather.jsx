@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { AppContext } from '../../Context/AppContext';
 import ErrorHandling from '../ErrorHandling/Errorhandling';  
-import styles from './Weather.module.css';
+import styles from './weather.module.css';
 
 const Weather = () => {
   const { weatherData, weatherData5days, error, loading } = useContext(AppContext);

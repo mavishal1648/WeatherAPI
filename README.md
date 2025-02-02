@@ -3,6 +3,8 @@
 
 A simple React-based weather dashboard that allows users to search for a city and view real-time weather data. The app fetches weather details using the OpenWeatherMap API and updates automatically every 30 seconds.
 
+🚀Deployment Link: https://weather-api-umber-seven.vercel.app/
+
 🚀 Features
 •	🔍 Search for a city and get live weather data
 •	🌡️ Displays temperature, humidity, wind speed, and weather conditions
@@ -11,7 +13,7 @@ A simple React-based weather dashboard that allows users to search for a city an
 •	🛠️ Error handling for invalid city names and network failures
 •	📌 Saves last searched city using local storage
 •	📊 5-day forecast (Bonus feature)
-•	🌍 Switch between Celsius & Fahrenheit
+•	🌍 Switch between Celsius & Fahrenheit(click on the value)
 
 🛠️ Tech Stack
 •	Frontend: React, React Hooks, Context API
@@ -21,10 +23,7 @@ A simple React-based weather dashboard that allows users to search for a city an
 
 🔧 Installation
 
-1️⃣ Clone this repository:
-
-git clone https://github.com/yourusername/weather-dashboard.git
-cd weather-dashboard
+1️⃣ Clone this repository
 
 2️⃣ Install dependencies:
 

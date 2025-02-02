@@ -1,0 +1,12 @@
+.home {
+   background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  overflow-y: auto;
+  width: 100%;
+}

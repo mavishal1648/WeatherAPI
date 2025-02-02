@@ -1,0 +1,162 @@
+.weatherContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+  width: 100%;
+  flex-wrap: wrap; /* Allow items to wrap on small screens */
+}
+
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1;
+  margin-left: 10%;
+  max-width: 55%;
+}
+
+.convert {
+  color: white;
+  font-size: x-small;
+  margin-left: 1%;
+}
+
+.weatherTitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.weatherTempAndIcon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.weatherIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.weatherTemp {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.weatherDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.weatherItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.weatherItem i {
+  font-size: 20px;
+  color: #4CAF50;
+}
+
+.weatherDescription {
+  font-style: italic;
+}
+
+.dateTime {
+  font-size: 14px;
+  color: #dcdcdc;
+}
+
+.rightSection {
+  flex: 1.5;
+  padding-left: 15px;
+  max-width: 40%;
+  display: flex;
+  margin-right: 10%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forecastContainer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.forecastItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+  border-left: 1px solid #ffffff;
+  padding-left: 15px;
+}
+
+.forecastItem .weatherIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.forecastItem .temperature {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.forecastItem:first-child {
+  border-left: none;
+}
+
+
+@media (max-width: 768px) {
+  .weatherContainer {
+    flex-direction: column; 
+    align-items: center;
+    padding: 10px;
+  }
+
+  .leftSection, .rightSection {
+    max-width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .weatherTitle {
+    font-size: 20px;
+  }
+
+  .weatherTempAndIcon {
+    gap: 10px;
+  }
+
+  .weatherTemp {
+    font-size: 22px;
+  }
+
+  .weatherDetails {
+    gap: 5px;
+  }
+
+  .forecastItem {
+    width: 50px;
+    padding-left: 10px;
+  }
+
+  .forecastItem .weatherIcon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .forecastItem .temperature {
+    font-size: 12px;
+  }
+
+ 
+  .forecastDay {
+    font-size: 0.7rem;
+  }
+}
